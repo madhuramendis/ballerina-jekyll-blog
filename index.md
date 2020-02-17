@@ -2,7 +2,7 @@
 layout: blog-home
 title: Blog
 ---
-<h1>Latest Posts</h1>
+<h1>Ballerina blog</h1>
 
 <ul class="cBlogList">
   {% for post in site.posts %}
