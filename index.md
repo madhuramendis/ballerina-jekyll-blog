@@ -10,7 +10,8 @@ title: Blog
       <p class="cDate">{{ post.published-date }}</p>
       <h2><a href="https://madhuramendis.github.io/ballerina-jekyll-blog/{{ post.url }}">{{ post.title }}</a></h2>
       <p class="cAuthor">{{ post.author }}</p>
-      {{ post.excerpt }}
+      <p>{{ post.abstract }}</p>
+      <!-- {{ post.excerpt }} -->
     </li>
   {% endfor %}
 </ul>
